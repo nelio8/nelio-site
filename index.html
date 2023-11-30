@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nelio | Portifólio</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/logo.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/section-tittle.css" />
+    <link rel="stylesheet" href="./css/sobre-mim.css" />
+    <link rel="stylesheet" href="./css/projetos.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#sobre-mim">Sobre</a>
+          </li>
+
+          <li>
+            <a href="#projetos">Projectos</a>
+          </li>
+          <li>
+            <a href="#contato">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="profile">
+          <img class="profile__foto" src="" alt="" />
+          <div>
+            <span class="profile__text">Olá, meu nome é</span>
+            <h1 class="profile__name">Nelio Langa</h1>
+            <span class="profile__text">sou Desenvolvedor Front end</span>
+          </div>
+        </div>
+      </section>
+      <section class="sobre-mim" id="sobre-mim">
+        <h2 class="section__tittle">Sobre Mim</h2>
+        <div class="description">
+          <h3 class="description__tittle">Quem sou?</h3>
+          <p class="description__text">
+           Eu sou nelio candido langa e tenho 23 anos ,estou em transicao de carreira,
+            em breve estarei formado em Análise e Desenvolvimento de Sistemas pela unisave. 
+            Sou apaixonada por tecnologia e games mas principalmente desenvolvimento. 
+            Atualmente Desenvolvedora Front-End porém estudando tecnologias de linguagens do Back-End, para futuramente me tornar Full-Stack. 
+            Também estou imersa nos estudos das tecnologias.
+          </p>
+        </div>
+
+          <div class="skills">
+          <h3 class="skills__tittle">Meus Conhecimentos:</h3>
+          <ul class="skills__container">
+
+           <li class="skills__icon">
+              <i class="fab fa-html5"></i>
+              <span>HTML</span>
+              </li>
+
+           <li class="skills__icon">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS</span>
+              </li>
+
+           <li class="skills__icon">
+              <i class="fab fa-js"></i>
+              <span>JAVASCRIPT</span>
+              </li>
+
+           <li class="skills__icon">
+              <i class="fab fa-github"></i>
+              <span>GITHUB</span>
+              </li>
+          </ul>
+        </div>
+      </section>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <section class="projetos" id="projetos">
+        <h2 class="section__tittle">Projetos:</h2>
+        <div class="card-container"> <a class="card" href="https://github.com/nelio8/nelio8" target="_blank">
+          <img src="./img/01.png" alt="netfla" />
+        </a>
+      </div>
+      </section>
+      <br><br><br><br><br><br><br>
+
+      <section class="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+          <div class="contato-left"></div>
+          <div class="contato-right">
+            <h1>Contato</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" id="nome">
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" id="email">
+                <label for="email" class="field-label">E-mail</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" id="mensagem"></textarea>
+                <label for="mensagem" class="field-label">Mensagem</label>
+              </div>
+              <button type="submit" class="btn btn-submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Todos os direitos reservados 2023 | Desenvolvido por Nelio Langa
+    </footer>
+  </body>
+</html>
